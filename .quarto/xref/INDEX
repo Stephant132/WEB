@@ -1,0 +1,11 @@
+{
+  "colors_app.qmd": {
+    "colors_app.html": "f5454a18"
+  },
+  "colors_document.qmd": {
+    "colors_document.html": "f8f7a555"
+  },
+  "colors_presentation.qmd": {
+    "colors_presentation.html": "10116b4f"
+  }
+}

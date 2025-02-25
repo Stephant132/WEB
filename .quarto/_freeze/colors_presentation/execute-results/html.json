@@ -1,0 +1,21 @@
+{
+  "hash": "ca3bb2f6c3db4973c8d68b1ae671717e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Viridis Color Palettes\"\nauthor: \"Your name\"\ndate: \"2025-02-25\"\nformat: revealjs\neditor: visual\n---\n\n\n\n\n\n<!--Each second level header begins a new slide-->\n\n## Viridis\n\nThe [viridis](https://sjmgarnier.github.io/viridis/) package provides eight eye-catching color palettes to use in data visualizations:\n\n-   magma\n-   inferno\n-   plasma\n-   viridis\n-   cividis\n-   rocket\n-   mako\n-   turbo\n\n## Optimized for perception\n\nAccording to the virids documentation, the palettes:\n\n> are designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing.\n\n## Magma\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/magma-1.png){width=960}\n:::\n:::\n\n\n\n## Inferno\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/inferno-1.png){width=960}\n:::\n:::\n\n\n\n## Plasma\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/plasma-1.png){width=960}\n:::\n:::\n\n\n\n## Viridis\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/viridis-1.png){width=960}\n:::\n:::\n\n\n\n## Cividis\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/cividis-1.png){width=960}\n:::\n:::\n\n\n\n## Rocket\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/rocket-1.png){width=960}\n:::\n:::\n\n\n\n## Mako\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/mako-1.png){width=960}\n:::\n:::\n\n\n\n## Turbo\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](colors_presentation_files/figure-revealjs/turbo-1.png){width=960}\n:::\n:::\n\n\n\n## Usage\n\nTo use a viridis palette in your plot, include `scale_*_viridis()` in your ggplot2 call:\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmpg |>  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")\n```\n:::\n",
+    "supporting": [
+      "colors_presentation_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

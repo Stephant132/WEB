@@ -1,0 +1,17 @@
+{
+  "hash": "045c261c3c08bde7171b2bdb4fb0cde5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Viridis Color Palettes\"\nauthor: \"Your name\"\ndate: \"2025-02-25\"\nformat: html\neditor: visual\n---\n\n\n\n\n\n## Viridis\n\nThe [viridis](https://sjmgarnier.github.io/viridis/) package provides eight eye-catching color palettes to use in data visualizations:\n\n-   magma\n-   inferno\n-   plasma\n-   viridis\n-   cividis\n-   rocket\n-   mako\n-   turbo\n\n## Optimized for perception\n\nAccording to the virids documentation, the palettes:\n\n> are designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing.\n\n## Viridis in action\n\nEach plot uses a different viridis color palette to visualize the median high temperature (F) by US county.\n\n\n\n::: {.cell layout-ncol=\"2\"}\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-2-1.png){width=480}\n:::\n\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-2-2.png){width=480}\n:::\n:::\n\n::: {.cell layout-ncol=\"2\"}\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-3-1.png){width=480}\n:::\n\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-3-2.png){width=480}\n:::\n:::\n\n::: {.cell layout-ncol=\"2\"}\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-4-1.png){width=480}\n:::\n\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-4-2.png){width=480}\n:::\n:::\n\n::: {.cell layout-ncol=\"2\"}\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-5-1.png){width=480}\n:::\n\n::: {.cell-output-display}\n![](colors_document_files/figure-html/unnamed-chunk-5-2.png){width=480}\n:::\n:::\n\n\n\n## Usage\n\nTo use a viridis palette in your plot, include `scale_*_viridis()` in your ggplot2 call:\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmpg |>  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")\n```\n:::\n",
+    "supporting": [
+      "colors_document_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

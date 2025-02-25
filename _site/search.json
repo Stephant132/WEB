@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "colors_presentation.html#viridis",
+    "href": "colors_presentation.html#viridis",
+    "title": "Viridis Color Palettes",
+    "section": "Viridis",
+    "text": "Viridis\nThe viridis package provides eight eye-catching color palettes to use in data visualizations:\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_presentation.html#optimized-for-perception",
+    "href": "colors_presentation.html#optimized-for-perception",
+    "title": "Viridis Color Palettes",
+    "section": "Optimized for perception",
+    "text": "Optimized for perception\nAccording to the virids documentation, the palettes:\n\nare designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing."
+  },
+  {
+    "objectID": "colors_presentation.html#magma",
+    "href": "colors_presentation.html#magma",
+    "title": "Viridis Color Palettes",
+    "section": "Magma",
+    "text": "Magma"
+  },
+  {
+    "objectID": "colors_presentation.html#inferno",
+    "href": "colors_presentation.html#inferno",
+    "title": "Viridis Color Palettes",
+    "section": "Inferno",
+    "text": "Inferno"
+  },
+  {
+    "objectID": "colors_presentation.html#plasma",
+    "href": "colors_presentation.html#plasma",
+    "title": "Viridis Color Palettes",
+    "section": "Plasma",
+    "text": "Plasma"
+  },
+  {
+    "objectID": "colors_presentation.html#viridis-1",
+    "href": "colors_presentation.html#viridis-1",
+    "title": "Viridis Color Palettes",
+    "section": "Viridis",
+    "text": "Viridis"
+  },
+  {
+    "objectID": "colors_presentation.html#cividis",
+    "href": "colors_presentation.html#cividis",
+    "title": "Viridis Color Palettes",
+    "section": "Cividis",
+    "text": "Cividis"
+  },
+  {
+    "objectID": "colors_presentation.html#rocket",
+    "href": "colors_presentation.html#rocket",
+    "title": "Viridis Color Palettes",
+    "section": "Rocket",
+    "text": "Rocket"
+  },
+  {
+    "objectID": "colors_presentation.html#mako",
+    "href": "colors_presentation.html#mako",
+    "title": "Viridis Color Palettes",
+    "section": "Mako",
+    "text": "Mako"
+  },
+  {
+    "objectID": "colors_presentation.html#turbo",
+    "href": "colors_presentation.html#turbo",
+    "title": "Viridis Color Palettes",
+    "section": "Turbo",
+    "text": "Turbo"
+  },
+  {
+    "objectID": "colors_presentation.html#usage",
+    "href": "colors_presentation.html#usage",
+    "title": "Viridis Color Palettes",
+    "section": "Usage",
+    "text": "Usage\nTo use a viridis palette in your plot, include scale_*_viridis() in your ggplot2 call:\n\nmpg |&gt;  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")"
+  },
+  {
+    "objectID": "colors_app.html",
+    "href": "colors_app.html",
+    "title": "Viridis Color Palettes",
+    "section": "",
+    "text": "The viridis package provides eight eye-catching color palettes to use in data visualizations:\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_app.html#viridis",
+    "href": "colors_app.html#viridis",
+    "title": "Viridis Color Palettes",
+    "section": "",
+    "text": "The viridis package provides eight eye-catching color palettes to use in data visualizations:\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_app.html#optimized-for-perception",
+    "href": "colors_app.html#optimized-for-perception",
+    "title": "Viridis Color Palettes",
+    "section": "Optimized for perception",
+    "text": "Optimized for perception\nAccording to the virids documentation, the palettes:\n\nare designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing."
+  },
+  {
+    "objectID": "colors_app.html#viridis-in-action",
+    "href": "colors_app.html#viridis-in-action",
+    "title": "Viridis Color Palettes",
+    "section": "Viridis in action",
+    "text": "Viridis in action\nEach plot uses a different viridis color palette to visualize the median high temperature (F) by US county.\n\n\n\n\n\n\nSelect a palette\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_app.html#usage",
+    "href": "colors_app.html#usage",
+    "title": "Viridis Color Palettes",
+    "section": "Usage",
+    "text": "Usage\nTo use a viridis palette in your plot, include scale_*_viridis() in your ggplot2 call:\n\nmpg |&gt;  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")"
+  },
+  {
+    "objectID": "colors_document.html",
+    "href": "colors_document.html",
+    "title": "Viridis Color Palettes",
+    "section": "",
+    "text": "The viridis package provides eight eye-catching color palettes to use in data visualizations:\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_document.html#viridis",
+    "href": "colors_document.html#viridis",
+    "title": "Viridis Color Palettes",
+    "section": "",
+    "text": "The viridis package provides eight eye-catching color palettes to use in data visualizations:\n\nmagma\ninferno\nplasma\nviridis\ncividis\nrocket\nmako\nturbo"
+  },
+  {
+    "objectID": "colors_document.html#optimized-for-perception",
+    "href": "colors_document.html#optimized-for-perception",
+    "title": "Viridis Color Palettes",
+    "section": "Optimized for perception",
+    "text": "Optimized for perception\nAccording to the virids documentation, the palettes:\n\nare designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing."
+  },
+  {
+    "objectID": "colors_document.html#viridis-in-action",
+    "href": "colors_document.html#viridis-in-action",
+    "title": "Viridis Color Palettes",
+    "section": "Viridis in action",
+    "text": "Viridis in action\nEach plot uses a different viridis color palette to visualize the median high temperature (F) by US county."
+  },
+  {
+    "objectID": "colors_document.html#usage",
+    "href": "colors_document.html#usage",
+    "title": "Viridis Color Palettes",
+    "section": "Usage",
+    "text": "Usage\nTo use a viridis palette in your plot, include scale_*_viridis() in your ggplot2 call:\n\nmpg |&gt;  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "hash": "f7e2cc1156085255787e94a98eceef4b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Viridis Color Palettes\"\nauthor: \"Your name\"\ndate: \"2025-02-25\"\nformat: html\n---\n\n\n\n<!--This Quarto document is made interactive using Shiny. Interactive documents allow readers to modify parameters and see the results immediately. Learn more about Shiny interactive documents at <https://quarto.org/docs/interactive/shiny/>.-->\n\n\n\n\n\n\n\n## Viridis\n\nThe [viridis](https://sjmgarnier.github.io/viridis/) package provides eight eye-catching color palettes to use in data visualizations:\n\n- magma\n- inferno\n- plasma\n- viridis\n- cividis\n- rocket\n- mako\n- turbo\n\n## Optimized for perception\n\nAccording to the virids documentation, the palettes:\n\n> are designed to improve graph readability for readers with common forms of color blindness and/or color vision deficiency. The color maps are also perceptually-uniform, both in regular form and also when converted to black-and-white for printing.\n\n## Viridis in action\n\nEach plot uses a different viridis color palette to visualize the median high temperature (F) by US county.\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"shiny-input-panel\">\n<div class=\"shiny-flow-layout\">\n<div>\n<div class=\"form-group shiny-input-container\">\n<label class=\"control-label\" id=\"palette-label\" for=\"palette\">Select a palette</label>\n<div>\n<select id=\"palette\" class=\"shiny-input-select\"><option value=\"magma\" selected>magma</option>\n<option value=\"inferno\">inferno</option>\n<option value=\"plasma\">plasma</option>\n<option value=\"viridis\">viridis</option>\n<option value=\"cividis\">cividis</option>\n<option value=\"rocket\">rocket</option>\n<option value=\"mako\">mako</option>\n<option value=\"turbo\">turbo</option></select>\n<script type=\"application/json\" data-for=\"palette\" data-nonempty=\"\">{\"plugins\":[\"selectize-plugin-a11y\"]}</script>\n</div>\n</div>\n</div>\n</div>\n</div>\n```\n\n:::\n\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"shiny-plot-output html-fill-item\" id=\"colorMap\" style=\"width:100%;height:400px;\"></div>\n```\n\n:::\n:::\n\n::: {.cell}\n\n:::\n\n\n\n## Usage\n\nTo use a viridis palette in your plot, include `scale_*_viridis()` in your ggplot2 call:\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmpg |>  \n  ggplot(aes(x = displ, y = cty, color = hwy)) +\n    geom_point() +\n    scale_color_viridis(option = \"A\")\n```\n:::\n",
+    "supporting": [
+      "colors_app_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/selectize-0.15.2/css/selectize.bootstrap3.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/selectize-0.15.2/js/selectize.min.js\"></script>\n<script src=\"site_libs/selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js\"></script>\n<link href=\"site_libs/htmltools-fill-0.5.8.1/fill.css\" rel=\"stylesheet\" />\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
